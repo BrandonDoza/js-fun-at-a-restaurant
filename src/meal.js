@@ -1,6 +1,5 @@
 function nameMenuItem(name) {
   return `Delicious ${name}`
-
 }
 
 function createMenuItem(name, price, type) {
@@ -19,7 +18,7 @@ function addIngredients(toppings, ingredients) {
 }
 
 function formatPrice(initialPrice){
-  var formatPrice = "$" + initialPrice
+  var formatPrice = "$" + initialPrice;
   return formatPrice
 }
 
@@ -35,9 +34,6 @@ function createRecipe(title, ingredients, type) {
     type: type,
   }
   return recipe
-  
- 
-
 }
 
 
